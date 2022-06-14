@@ -1,9 +1,10 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container1{
     background-color: #1F2937 ;
     margin: -10px;
     padding:30px;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
 .header{
     display: flex;
@@ -24,11 +25,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    font-size: 25px;
 }
 li{
-    list-style-type: none;
-    font-size: 25px;
-    
+    list-style-type: none;   
 }
 a{
     text-decoration: none;
@@ -41,6 +41,8 @@ a{
     align-items: center;
     max-width: 80%;
     margin:0 auto;
+    gap:20px;
+    
 }
 .left h1{
     color: #f9faf8;
@@ -52,7 +54,6 @@ a{
 }
 .right img{
     border-radius: 20px;
-    box-shadow:#e5e7eb;
 }
 button{
     width: 100px;
@@ -60,5 +61,80 @@ button{
     background-color:#3882f6 ;
     border-radius: 10px;
     font-size:15px;
+    color: #f9faf8;
+    border: 1px #e5e7eb solid;
 }
-
+/*container2*/
+.container2{
+    padding: 30px;
+    color: #1F2937;
+}
+.container2 h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.images ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.images li{
+    width: 150px;
+    text-align: center;
+}
+.images img{
+    border:2px #3882f6 solid;
+    border-radius: 10px;
+}
+/*container3*/
+.container3{
+    background-color: #e5e7eb;
+    padding: 50px;
+    margin: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+.container3 p{
+    color: #1f2937;
+    font-size: 36px; font-weight: light;
+    font-style: italic;
+    
+}
+.saidby {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: end;
+}
+/*container4*/
+.container4 {
+    padding: 70px;
+}
+.bluebox{
+    padding: 20px 50px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    color: #e5e7eb;
+}
+button:hover{
+    background-color: #72a2ef;
+}
+/*container5*/
+.container5{
+    padding: 30px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    margin: -10px;
+}
